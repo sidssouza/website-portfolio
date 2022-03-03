@@ -1,0 +1,294 @@
+body {
+  height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: -0.01em;
+  background-color: white;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: black;
+
+}
+
+h1 {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86px;
+  margin: 0px;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  margin: 0px;
+}
+
+a {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logotipo {
+  width: 72px;
+  padding: 40px 0px;
+}
+
+.intro {
+  height: 100vh;
+  padding: 0px 60px;
+}
+
+.intro h1 {
+  max-width: 884px;
+}
+
+.approach {
+  display: flex;
+  padding: 40px 0px;
+}
+
+.approach p {
+  max-width: 400px;
+  margin-right: 24px;
+}
+
+.lets_talk {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  left: 60px;
+  bottom: 60px;
+}
+
+.social_media {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  display: flex;
+  gap: 24px;
+}
+
+.social_media img {
+  display: flex;
+}
+
+.projects {
+  display: grid;
+  height: calc(50%);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.projects img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.lets_talk_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.lets_talk_footer a {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.social_media_footer {
+  right: 60px;
+  bottom: 60px;
+  display: flex;
+  gap: 24px;
+}
+
+.social_media_footer img {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: white; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
+::-webkit-scrollbar-track:hover {
+  background: black; 
+}
+
+@media only screen and (max-width: 767px) {
+
+  body {
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: -0.01em;
+    background-color: white;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  
+  footer {
+    background-color: black;
+  
+  }
+  
+  h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0px;
+  }
+  
+  p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+  }
+  
+  a {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover{
+   text-decoration: underline;
+  }
+  
+  .logotipo {
+    width: 72px;
+    padding: 20px 0px;
+  }
+  
+  .intro {
+    height: 100vh;
+    padding: 0px 20px;
+  }
+  
+  .approach {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 0px;
+  }
+  
+  .approach p {
+    max-width: 400px;
+    margin-right: 24px;
+  }
+  
+  .lets_talk {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  
+  .social_media {
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    display: flex;
+    gap: 24px;
+    display: none;
+  }
+  
+  .projects {
+    display: grid;
+    height: calc(50%);
+    grid-template-columns: 1fr;
+  }
+  
+  .projects img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+  }
+  
+  .lets_talk_footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 20px 40px;
+    gap: 40px;
+    flex-direction: column;
+  }
+  
+  .lets_talk_footer a {
+    color: white;
+    gap: 8px;
+  }
+  
+  .social_media_footer {
+    display: flex;
+    gap: 24px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: white; 
+  }
+  
+  ::-webkit-scrollbar-track:hover {
+    background: black; 
+  }
+}
